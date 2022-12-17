@@ -59,9 +59,8 @@ header > p{
     border-radius: 10px;
  }
  
-
     .socialmedia {
-        background:#34af23 ;
+        background:#34af23;
     }
 
     .socialmedia:hover{
@@ -175,7 +174,7 @@ header > p{
         }
 
         header > p{
-            padding-right: 10px;
+            padding-right: 20px;
             font-size: 1.1em;
             padding-top: 15px;
             padding-bottom: 15px;
@@ -193,6 +192,26 @@ header > p{
 
         .socialmedia, .cor, .insta, .msg, .git{
             width: 280px;
+        }
+
+        .socialmedia:hover{
+            transform: scale(1.1);
+        }
+
+        .cor{
+            transform: scale(1.1);
+        }
+
+        .insta{
+            transform: scale(1.1);
+        }
+
+        .msg{
+            transform: scale(1.1);
+        }
+
+        .git{
+            transform: scale(1.1);
         }
 
         .final{
